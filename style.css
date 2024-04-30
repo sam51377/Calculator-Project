@@ -1,0 +1,58 @@
+/* Importing Google Font */
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the body */
+body {
+    background: antiquewhite;
+}
+
+/* Styling for the header */
+#header {
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace; /* Applying the imported font */
+}
+
+/* Main container styling */
+.main {
+    background-color: #224662;
+    color: #fff;
+    height: auto;
+    width: 270px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+/* Button styling */
+.btn {
+    height: auto;
+    width: 40px;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Transparent button styling */
+.btn-ts {
+    width: 45px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: HSL(0, 0%, 30%);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
